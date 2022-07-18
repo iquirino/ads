@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{41C81B3E-6296-4DAB-AF3C-D994B3CCA552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ads", "Ads", "{3FF2D986-8297-40EC-91A3-33AFB3226913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semasio.Ads", "Semasio.Ads\Semasio.Ads.csproj", "{02AA086F-1C3A-4786-B5EB-E30128B1BA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semasio.Payments", "Semasio.Payments\Semasio.Payments.csproj", "{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AA5A0AC-903D-414F-AE0C-0877186C0EF7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AA086F-1C3A-4786-B5EB-E30128B1BA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AA086F-1C3A-4786-B5EB-E30128B1BA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AA086F-1C3A-4786-B5EB-E30128B1BA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AA086F-1C3A-4786-B5EB-E30128B1BA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02AA086F-1C3A-4786-B5EB-E30128B1BA41} = {3FF2D986-8297-40EC-91A3-33AFB3226913}
+		{D482C8E9-595E-4DED-9390-3CC6CE1BD9BD} = {41C81B3E-6296-4DAB-AF3C-D994B3CCA552}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9CE06E8-1B3B-4EFC-8E31-4449C292339D}
+	EndGlobalSection
+EndGlobal
